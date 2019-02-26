@@ -139,19 +139,19 @@ Function Get-SimpleSysInfo {
             $HDTypeSpeedPrint = "HD"
         }
         elseif ($RPMs -eq 3) {
-            $HDTypeSpeedPrint = ""; 
+            $HDTypeSpeedPrint = "HD"; 
             Write-Warning "Unknown error. Soln: Start-Process powershell -Verb runAs"
         }
         elseif ($RPMs -eq 4) {
-            $HDTypeSpeedPrint = ""; 
+            $HDTypeSpeedPrint = "HD"; 
             Write-Warning "Soln: Run in Powershell_ISE.exe as Admin"
         }
         elseif ($RPMs -eq 7) {
-            $HDTypeSpeedPrint = ""; 
+            $HDTypeSpeedPrint = "HD"; 
             Write-Warning "Embedded C# Script does not have elevated Admin privledges to grab Drive Type and RPM speed info. Soln: Start-Process powershell -Verb runAs"
         }
         elseif ($RPMs -eq 11) {
-            $HDTypeSpeedPrint = ""; 
+            $HDTypeSpeedPrint = "HD"; 
             Write-Warning "System cannot find that drive. $BootDriveLetter" 
         }
         elseif ($RPMs -gt 1024 -and $RPMs -lt 65535) {
