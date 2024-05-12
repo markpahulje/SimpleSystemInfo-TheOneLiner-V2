@@ -1,6 +1,6 @@
 SimpleSystemInfo-TheOneLiner-V2.ps1
 
-This Powershell script boils down essential non-identifying anonymous system information into 1 line for a post, quote or tweet. 
+This Powershell script boils down essential Widows system information into 1 line for a post, quote or tweet. 
 
 Example outputs; 
 
